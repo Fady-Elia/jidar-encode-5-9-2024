@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo:400,700&subset=arabic');
+body
+{
+font-family: 'Cairo';
+}
+#header , .about-us  , .contact-area , .footer-area , .about-us , .details
+{
+	direction: rtl
+}
+.nav-menu > li {
+    float: right;
+}
+.tb_work_txt_wrapper {
+    float: left;
+    width: 100%;
+    padding-left: 30px;
+}
+.abt_list_wrapper li i
+{
+	display: none
+}
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    direction: rtl;
+}
+.single-offered , .projects-area .single-project
+{
+	text-align: right;
+}
+.owl-carousel .owl-item {
+    position: relative;
+    min-height: 1px;
+    float: right;
+    -webkit-backface-visibility: hidden;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+}
+.facts-area {
+    padding: 60px 0px;
+    direction: rtl;
+}
+.process-section
+{
+  direction: rtl;
+}
+.services {
+    padding: 50px;
+    direction: rtl;
+    text-align: right;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background-color: #fac012;
+    border-right: 5px solid #222222 !important;
+      border-right: 0px solid #222222 !important;
+}
+#tab-sidebar .nav-link {
+    margin: 5px;
+    border: 1px solid lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    position: relative;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #222222;
+    display: block;
+    padding: 17px 40px 19px;
+    font-weight: 600;
+}
+.projects {
+    padding: 50px;
+    direction: rtl;
+}
+#tabs {
+    padding-top: 50px;
+    direction: rtl;
+    text-align: right;
+}
+#overlay
+{
+	direction: ltr
+}
+.section2 .col2.first {
+    float: right;
+}
+.section2 .col2.last {
+    float: left;
+}
+.abt_txt_box
+{
+text-align: right;
+}
+.section2 .col2.last {
+    float: left;
+    text-align: right;
+}
+.section2 .sec2contactform input[type="text"], .section2 .sec2contactform input[type="email"], .section2 .sec2contactform textarea
+{
+    text-align: right;
+}
+.footer-area h4 {
+    padding-bottom: 14px;
+    text-align: right;
+}
+footer p {
+    margin-top: 0;
+    margin-bottom: 0rem;
+    color: #cccc;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: right;
+}
+.single-footer-widget
+{
+    text-align: right;
+}
+.section2 .sec2addr {
+    display: block;
+    line-height: 26px;
+    direction: rtl;
+}
